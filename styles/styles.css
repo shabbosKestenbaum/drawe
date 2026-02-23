@@ -1,3 +1,57 @@
+body {
+    background-color: magenta;
+}
+
+h1 {
+    color: rgb(255, 247, 9);
+}
+
 div {
     background-color: rgb(226, 229, 156);
+    width: 50vw;
 }
+
+.divRojo {
+    background-color: rgb(194, 50, 50);
+    color: aquamarine; }
+
+.divUnico {
+    background-color: cyan
+}
+
+#dibujo {
+    width: 40vw;
+    height: 40vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cara {
+    width: 60%;
+    height: 70%;
+    background-color: teal;
+    border-radius: 50%;
+    position: relative; }
+.ojos {
+    width: 20%;
+    height: 20%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute; }
+
+#ojoIzq {
+    top: 20%;
+    left: 20%;
+
+}
+
+#ojoDer {
+
+    top: 35%;
+    right: 20%;
+
+}
+
+
