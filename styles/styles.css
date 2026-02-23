@@ -51,7 +51,24 @@ div {
 
     top: 35%;
     right: 20%;
-
 }
+
+.pupilas {
+    width: 10%;
+    height: 10%;
+    background-color: black;
+
+    border-radius: 50%;
+    position: absolute; }
+
+#pupilaIzq {
+    top: 50%;
+    left: 50%; }
+
+#pupilaDer {
+    top: 50%;
+    left: 50%;
+}
+
 
 
