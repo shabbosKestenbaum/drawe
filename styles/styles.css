@@ -65,11 +65,14 @@ div {
     width: 30%;
     height: 30%;
     top: 50%;
-    left: 18%; }
+    left: 18%;
+    transition: all 4s ease-in;
+}
 
 #pupilaDer {
     top: 23%;
     left: 50%;
+    transition: all 4s ease-in;
 
 }
 
@@ -103,12 +106,14 @@ div {
 #cejaIzq {
     left: 15%;
     transform: rotate(-20deg);
+    transition: all 4s;
 }
 
 #cejaDer {
     top: 26%;
     right: 13%;
     transform: rotate(20deg);
+    transition: all 4s;
 }
 
 .dientes {
@@ -145,3 +150,28 @@ div {
 #orejaDer {
     right: -20%;
 }   
+
+#pupilaIzq:hover, #pupilaDer:hover {
+    background-color: red;
+    width: 50%;
+    height: 50%;
+    transform: rotate(369deg);
+    transition: transform 0.3s ease;
+}
+
+#cejaIzq:hover, #cejaDer:hover {
+    background-color: rgb(255, 247, 0);
+    transform: rotate(360deg) scale(0.5);
+    transition: transform 0.3s ease;
+}
+
+#orejaIzq:hover, #orejaDer:hover {
+    transform: scale(0.5);
+    transition: transform 0.3s ease;
+}
+
+@keyframes orejaAnim {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.5); }
+    100% { transform: scale(1); }
+}
